@@ -50,8 +50,9 @@ aside {
 }
 
 aside img {
-  width: 200px;
-  height: auto;
+  position: absolute;
+  top: 47px;
+  left: 150px;
 }
 
 footer {
