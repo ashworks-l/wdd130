@@ -90,9 +90,9 @@ nav a {
 }
 
 .hero article img {
-  float: right;
-  width: 125px;
-  height: auto;
+    float: left;
+    width: 125px;
+    height: auto;
   border: 1px solid var(--accent1-color);
   padding: 2px;
   box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
@@ -127,8 +127,6 @@ section p {
 
 footer {
   background-color: var(--bg-header-footer);
-  padding: 15px;
-  display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
@@ -140,8 +138,7 @@ footer p {
   font-size: 0.9em;
 }
 .socialmedia {
-  display: flex;
-  gap: 10px;
+    display: unset;
 }
 
 .socialmedia a {
