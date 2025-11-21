@@ -4,23 +4,15 @@
   box-sizing: border-box;
 }
 
-body {
-  font-size: 16px;
-  font-family: 'parisine', Arial, serif;
-  background-color: white;
-}
-
 nav {
   background-color: steelblue;
-  padding: 15px;
-  text-align: center;
+  padding: 10px;
 }
 
 nav a {
   color: white;
   padding: 10px;
   display: block;
-  text-decoration: none;
 }
 
 h1 {
@@ -28,70 +20,62 @@ h1 {
   padding: 0.5rem;
 }
 
-main {
-  max-width: 640px;
-  padding: 10px;
-  margin: 0 auto;
+main{
+  max-width: 650px;
 }
-
-main .image-wrapper {
-  display: flex;
-  align-items: flex-start;
-  gap: 1rem;
-  margin-bottom: 1rem;
-}
-
-main .image-wrapper img {
-  width: 150px;
-  height: auto;
+main img{
+  width:120px;
+  height:auto;
   border: 1px solid steelblue;
   padding: 2px;
-  box-shadow: 0 0 30px gray;
-}
-
-main .image-wrapper .image-title {
-  position: relative;
-  width: 150px;
-  text-align: center;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.7);
-  padding: 0.5rem 0;
-  border-radius: 5px;
-  font-size: 1.2em;
-  margin-top: -1.5rem;
-  z-index: 1;
+  box-shadow:0 0 30px gray ;
+  float: right;
+  margin: 0 0 1rem 1rem;
 }
 
 p {
-  margin: 1rem 0;
-  padding: 0;
+  margin: 1rem;
 }
 
-aside {
-  width: 20em;
-  margin: 1em auto;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  padding: 1em;
-  background-color: lightgray;
-  color: black;
+aside{
+  width:18em ;
   text-align: center;
+  position: relative;
+   margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, .1);
+  padding: 1rem;
+  background-color: #eee;
+  color: #000;
+}
+
+aside img {
+  width: 200px;
+  height: auto;
+  
+}
+
+aside h2 {
+  position: absolute;
+  top:18px;
+  left: 115px;
+  
 }
 
 footer {
   margin-top: 1em;
-  border-top: 1px solid black;
+  border-top: 1px solid #000;
   text-align: center;
-  padding: 1rem 0;
 }
-
-.box {
+ 
+/* Class Selector*/
+.box{
   margin: 1rem;
-  border: 1px solid black;
+  border: 1px solid rgba(0, 0, 0, .1);
   padding: 1rem;
-  background-color: lightgray;
-  color: black;
+  background-color: #eee;
+  color: #000;
 }
 
-.indent {
+.indent{
   padding-left: 2rem;
 }
