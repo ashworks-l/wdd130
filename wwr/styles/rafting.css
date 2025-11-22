@@ -11,26 +11,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-nav {
-  display: flex;
-  flex-direction: row;
-  gap: 12px;
-  align-items: center;
-}
-
-nav a {
-  display: block;
-  padding: 10px 16px;
-  background-color: var(--accent2-color); 
-  color: var(--primary-color); 
-  text-decoration: none;
-  font-weight: bold;
-  border: 2px solid var(--primary-color);
-  border-radius: 6px;
-  text-align: center;
-  transition: background-color 0.2s, color 0.2s;
-}
-
 
 body {
   font-family: var(--body-font);
@@ -43,7 +23,7 @@ header, main, footer {
 }
 
 header {
-  background-color: white;
+  background-color: var(--accent1-color);
   padding: 20px;
   display: grid;
   grid-template-columns: auto 1fr; 
@@ -61,12 +41,24 @@ nav {
   flex-direction: row; 
   justify-content: flex-end;
   gap: 20px; 
+  align-items: center;
 }
 
 nav a {
+  display: block;
+  padding: 10px 16px;
+  background-color: var(--accent2-color);
   color: var(--primary-color);
   text-decoration: none;
   font-weight: bold;
+  border: 2px solid var(--primary-color);
+  border-radius: 6px;
+  text-align: center;
+  transition: background-color 0.2s, color 0.2s;
+}
+nav a:hover {
+  background-color: var(--primary-color);
+  color: var(--accent1-color);
 }
 
 
@@ -131,12 +123,12 @@ h4 {
   padding: 15px;
   color: var(--accent1-color);
   border-radius: 5px;
-  display: flex;
   gap: 15px;
   align-items: flex-start;
 }
 
 .hero article img {
+  float: right;
   width: 125px;
   height: auto;
   border: 1px solid var(--accent1-color);
@@ -229,7 +221,7 @@ footer p {
 
 .socialmedia {
   display: flex;
-  flex-direction: row; 
+  flex-direction: row; /* ✅ corregido de 'ro' a 'row' */
   gap: 10px;
   margin-top: 15px;
 }
