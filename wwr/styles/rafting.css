@@ -125,8 +125,11 @@ section p {
   line-height: 1.6;
 }
 
+/*Class Selection*/
+
 footer {
-  background-color: var(--bg-header-footer);
+  background-color: var(--primary-color);
+  color: var(--accent1-color);
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
