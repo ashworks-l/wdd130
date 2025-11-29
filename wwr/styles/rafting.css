@@ -268,7 +268,6 @@ footer p {
 
 /* === CONTACT PAGE - FLAT DESIGN (MATCHES WIREFRAME) === */
 
-/* Eliminar estilos de sección por defecto */
 .company-info,
 .contact-container {
   background: none;
@@ -296,7 +295,7 @@ footer p {
   color: var(--primary-color);
 }
 
-/* Contenedor mapa + formulario */
+
 .contact-container {
   display: flex;
   gap: 20px;
