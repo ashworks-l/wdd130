@@ -266,7 +266,7 @@ footer p {
   height: 25px;
 }
 
-/* === CONTACT PAGE - FLAT DESIGN (MATCHES WIREFRAME) === */
+/* === CONTACT PAGE - FLAT DESIGN === */
 
 .company-info,
 .contact-container {
@@ -304,10 +304,11 @@ footer p {
   justify-content: center;
 }
 
-.map-section,
-.form-section {
-  flex: 1;
-  min-width: 200px;
+
+.map-section iframe {
+  border: none;
+  width: 100%;
+  height: 200px;
 }
 
 .map-section img {
