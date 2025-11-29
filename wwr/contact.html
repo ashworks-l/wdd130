@@ -50,13 +50,16 @@
                         <label>Message Purpose</label>
                         <div class="radio-group">
                             <label>
-                                <input type="radio" name="purpose" value="general" checked> General Inquiry
+                                <input type="radio" id="purpose-general" name="purpose" value="general" checked> General
+                                Inquiry
                             </label>
                             <label>
-                                <input type="radio" name="purpose" value="booking"> Reservation Question
+                                <input type="radio" id="purpose-booking" name="purpose" value="booking"> Reservation
+                                Question
                             </label>
                             <label>
-                                <input type="radio" name="purpose" value="suggestion"> Website Suggestion
+                                <input type="radio" id="purpose-suggestion" name="purpose" value="suggestion"> Website
+                                Suggestion
                             </label>
                         </div>
                     </div>
@@ -64,8 +67,9 @@
                     <label for="message">Message</label>
                     <textarea id="message" name="message" placeholder="Type here" rows="4" required></textarea>
 
-                    <label class="newsletter-checkbox">
-                        <input type="checkbox" name="newsletter"> Please Subscribe me to the monthly newsletter
+                    <label class="newsletter-checkbox" for="newsletter">
+                        <input type="checkbox" id="newsletter" name="newsletter"> Please Subscribe me to the monthly
+                        newsletter
                     </label>
 
                     <button type="submit">Get in Touch!</button>
@@ -91,7 +95,6 @@
             </div>
         </section>
     </main>
-
     <footer>
         <p>&copy; 2025 White Water Rafting. Ashley Lujan.</p>
         <nav class="socialmedia">
