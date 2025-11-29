@@ -266,3 +266,158 @@ footer p {
   height: 25px;
 }
 
+/* === CONTACT PAGE - FLAT DESIGN (MATCHES WIREFRAME) === */
+
+/* Eliminar estilos de sección por defecto */
+.company-info,
+.contact-container {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 20px auto;
+  max-width: 840px;
+}
+
+.company-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.company-info h1 {
+  font-size: 1.8em;
+  margin-bottom: 5px;
+  color: var(--primary-color);
+}
+
+.company-info p {
+  margin: 3px 0;
+  font-size: 1em;
+  line-height: 1.4;
+  color: var(--primary-color);
+}
+
+/* Contenedor mapa + formulario */
+.contact-container {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.map-section,
+.form-section {
+  flex: 1;
+  min-width: 200px;
+}
+
+.map-section img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 0 0 rgba(0,0,0,0);
+}
+
+.form-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-section label {
+  font-weight: bold;
+  margin-top: 10px;
+  color: var(--primary-color);
+}
+
+.form-section input,
+.form-section textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+  background-color: #fff;
+}
+
+.purpose-group {
+  margin-top: 10px;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.newsletter-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 10px 0;
+}
+
+.form-section button {
+  background-color: #ddd;
+  color: #333;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  align-self: flex-start;
+  margin-top: 10px;
+}
+
+.form-section button:hover {
+  background-color: #ccc;
+}
+
+/* === TEAM SECTION STYLES === */
+
+.team-section {
+  text-align: center;
+  margin: 30px auto;
+  padding: 0;
+  max-width: 840px;
+}
+
+.team-section h2 {
+  font-size: 1.6em;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+}
+
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.team-member {
+  text-align: center;
+  max-width: 180px;
+}
+
+.team-member img {
+  width: 100px;
+  height: 100px;
+  border-radius: 0; 
+  object-fit: cover;
+  border: 1px solid #ddd;
+  margin-bottom: 8px;
+}
+
+.team-member p {
+  margin: 0;
+  font-size: 0.9em;
+  color: var(--primary-color);
+}
+
+.team-member small {
+  display: block;
+  font-size: 0.8em;
+  color: #666;
+}
