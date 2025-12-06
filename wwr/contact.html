@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Contact Splash Company for general inquiries, reservation questions, or website suggestions. Our expert team is ready to help plan your next adventure.">
+        content="Contact Splash Rafting Company for general inquiries, reservation questions, or website suggestions. Our expert team is ready to help plan your next adventure.">
     <meta name="author" content="Ashley Lujan">
-    <title>Contact Us | Splash Company</title>
+    <title>Contact Us | Splash Rafting Company</title>
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
     <header>
-        <img src="images/z-splash.png" alt="Splash Company Logo" class="logo">
+        <img src="images/z-splash.png" alt="Splash Rafting Company Logo" class="logo">
         <nav>
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
@@ -24,7 +24,7 @@
 
     <main>
         <section class="company-info">
-            <h1>Splash Company</h1>
+            <h1>Splash Rafting Company</h1>
             <p>Santa María de Nieva<br>Peru</p>
             <p>+51 996 879 999</p>
             <p>info@whitewater.com</p>
@@ -34,7 +34,8 @@
             <div class="map-section">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d151335.17400782622!2d-77.90431934081792!3d-4.631934892212984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91c98b15273cd6ab%3A0xe76a1abce3d02469!2sSanta%20Mar%C3%ADa%20de%20Nieva%2C%20Per%C3%BA!5e0!3m2!1ses-419!2ses!4v1764375317100!5m2!1ses-419!2ses"
-                    allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    title="Map of Splash Rafting Company location in Santa María de Nieva, Peru" allowfullscreen
+                    loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
             </div>
 
@@ -47,8 +48,8 @@
                     <input type="email" id="email" name="email" placeholder="Your email" required>
 
                     <div class="purpose-group">
-                        <label>Message Purpose</label>
-                        <div class="radio-group">
+                        <label for="purpose">Message Purpose</label>
+                        <div class="radio-group" id="purpose">
                             <label><input type="radio" name="purpose" value="general" checked> General Inquiry</label>
                             <label><input type="radio" name="purpose" value="booking"> Reservation Question</label>
                             <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
@@ -58,8 +59,9 @@
                     <label for="message">Message</label>
                     <textarea id="message" name="message" placeholder="Your message" rows="4" required></textarea>
 
-                    <label class="newsletter-checkbox">
-                        <input type="checkbox" name="newsletter"> Please subscribe me to the monthly newsletter
+                    <label class="newsletter-checkbox" for="newsletter">
+                        <input type="checkbox" id="newsletter" name="newsletter"> Please subscribe me to the monthly
+                        newsletter
                     </label>
 
                     <button type="submit">Get in Touch!</button>
@@ -87,11 +89,11 @@
     </main>
 
     <footer>
-        <p>&copy; 2025 Splash Company | Ashley Lujan</p>
+        <p>&copy; 2025 Splash Rafting Company — Ashley Lujan</p>
         <nav class="socialmedia">
             <a href="https://facebook.com"><img src="images/facebook.svg" alt="Facebook Logo"></a>
             <a href="https://instagram.com"><img src="images/instagram.svg" alt="Instagram Logo"></a>
-            <a href="https://youtube.com"><img src="images/youtube.svg" alt="Youtube Logo"></a>
+            <a href="https://youtube.com"><img src="images/youtube.svg" alt="YouTube Logo"></a>
         </nav>
     </footer>
 </body>
